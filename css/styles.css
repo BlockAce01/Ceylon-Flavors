@@ -482,7 +482,7 @@ li {
 
 /* Category Section */
 .section {
-  padding: 10rem 0 5rem 0;
+  padding: 7rem 0 2rem 0;
   overflow: hidden;
 }
 
@@ -559,7 +559,7 @@ li {
 
 @media only screen and (max-width: 768px) {
   .section {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 
   .cat-center {
