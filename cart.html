@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Your Cart</title>
+  <link rel="icon" type="image" href="images/images (2).jpeg">
+</head>
+
+<body>
+
+  <!--nav bar -->
+  <div class="navigation">
+    <div class="nav-center container d-flex">
+      <a href="index.html" class="logo">
+        <h1>Ceylon Flavors</h1>
+      </a>
+      <ul class="nav-list d-flex">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link">Menu</a>
+          <ul class="dropdown-content">
+            <li><a href="product.html#Appetizers" class="dropdown-link">Appetizers</a></li>
+            <li><a href="product.html#MainCourses" class="dropdown-link">Main Courses</a></li>
+            <li><a href="product.html#Seafood" class="dropdown-link">Seafoods</a></li>
+            <li><a href="product.html#Vegetarian" class="dropdown-link">Vegetarian</a></li>
+            <li><a href="product.html#Side" class="dropdown-link">Side Dishes</a></li>
+            <li><a href="product.html#Breads" class="dropdown-link">Breads & Roti</a></li>
+            <li><a href="product.html#Dessert" class="dropdown-link">Desserts</a></li>
+            <li><a href="product.html#Beverages" class="dropdown-link">Beverages</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#foot" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item lognav">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+      </ul>
+
+      <div class="icons d-flex">
+        <a href="cart.html" class="icon" title="Cart">
+          <i class="bx bx-cart"></i>
+        </a>
+      </div>
+
+      <div class="hamburger">
+        <i class="bx bx-menu-alt-left"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Items -->
+  <div class="container cart">
+    <table>
+      <tr>
+        <th>Food Item</th>
+        <th>Portion Size (1 or 2)</th>
+        <th>Item Quantity</th>
+        <th>Subtotal</th>
+
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Fried rice.jpg" alt="" />
+            <div>
+              <p>Mixed Fried Rice</p>
+              <span>Price: Rs.750.00</span> <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="2" /></td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>Rs.750.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Cashewcurry.jpg" alt="" />
+            <div>
+              <p>Cashew Curry</p>
+              <span>Price: Rs.500.00</span> <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="2" /></td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>Rs.500.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Coconut Pittu.webp" alt="" />
+            <div>
+              <p>Coconut Pittu</p>
+              <span>Price: Rs.300.00</span> <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="2" /></td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>Rs.300.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Kurakkan String hoppers with potato curry.jpg" alt="" />
+            <div>
+              <p>Kurakkan String hoppers with potato curry</p>
+              <span>Price: Rs.800.00</span> <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="2" /></td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>Rs.800.00</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="./images/Kurakkan Helapa.JPG" alt="" />
+            <div>
+              <p>Krakkan Helapa</p>
+              <span>Price: Rs.250.00</span> <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1" max="2" /></td>
+        <td><input type="number" value="1" min="1" /></td>
+        <td>Rs.250.00</td>
+      </tr>
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>Rs.2600.00</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>Rs.0.00</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>Rs.2600.00</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Proceed To Checkout</a>
+    </div>
+  </div>
+
+
+  <!-- Signature Dishes-->
+
+  <section class="section new-arrival">
+    <div class="title">
+      <h1>Our Signature Dishes</h1>
+      <p>The Menus unique to our restaurant</p>
+    </div>
+
+    <div class="product-center">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/Crab curry with bread.jpeg" alt="" />
+          </a>
+
+        </div>
+        <div class="product-info">
+          <span>Foods</span>
+          <a href="">Sri Lankan Crab Curry with Bread</a>
+          <h4>Rs.1500.00</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/Mutton curry with Pol roti.webp" alt="" />
+          </a>
+        </div>
+
+        <div class="product-info">
+          <span>Foods</span>
+          <a href="">Mutton Curry with Pol Roti</a>
+          <h4>Rs.1500.00</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/Jack fruit Kottu.jpg" alt="" />
+          </a>
+
+        </div>
+        <div class="product-info">
+          <span>Foods</span>
+          <a href="">Jack Fruit Chicken Kottu</a>
+          <h4>Rs.1000.00</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/Kurakkan String hoppers with potato curry.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Foods</span>
+          <a href="">Kurakkan String hoppers With Potato Curry</a>
+          <h4>Rs.800.00</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+
+  </section>
+
+
+
+
+  <!-- Contact -->
+  <section class="section contact">
+    <div class="row">
+      <div class="col">
+        <pre><h2>          OPEN HOURS</h2><br></pre>
+        <pre><p>
+          Monday    -    9.00am-11.00pm<br>
+          Tuesday   -    9.00am-11.00pm<br>
+          Wednesday -    9.00am-11.00pm<br>
+          Thursday  -    9.00am-11.00pm<br>
+          Friday    -    9.00am-12.00am<br>
+          Saturday  -    9.00am-12.00am<br>
+          Sunday    -    9.00am-12.00am
+        </p></pre>
+
+
+
+      </div>
+      <div class="col">
+        <h2>EXCELLENT SUPPORT</h2>
+        <p>To get News And Offers Contact Us!</p>
+        <a href="" class="btn btn-1">Contact us</a> <br><br>
+
+        <form action="">
+          <div>
+            <input type="email" placeholder="Email Address">
+            <a href="">Send</a>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="foot">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>CONTACT US</h4>
+        <p>
+          Hela Bojun Restaurant.<br>
+          Prince street,<br>
+          Colombo 5,<br>
+          Sri Lanka.
+        </p>
+
+      </div>
+      <div class="col d-flex">
+        <p>
+          T : 011 1234567<br>
+          F : +94111234567<br>
+          E : helabojun@gmail.com
+
+        </p>
+
+      </div>
+
+      <div class="col d-flex">
+        <span><i class='bx bxl-facebook-square'></i></span>
+        <span><i class='bx bxl-instagram-alt'></i></span>
+        <span><i class='bx bxl-twitter'></i></span>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
