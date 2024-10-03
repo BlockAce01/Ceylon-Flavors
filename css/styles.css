@@ -426,13 +426,14 @@ li {
 
 .gimg {
   width: 100%;
+  border-radius: 10%;
 }
 
 .gallery__grid {
-  margin-top: 4rem;
+  margin: 0 5rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .gallery__card {
@@ -455,12 +456,13 @@ li {
 
 }
 
+
 .gallery__content h4 {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 800;
   font-family: var(--header-font);
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .gallery__card:hover .gallery__content {
@@ -478,6 +480,7 @@ li {
 .section__subheader {
   max-width: 600px;
   margin: auto;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -1255,8 +1258,6 @@ th:last-child {
   justify-items: center;
   border-style:double;
   border-radius: 20px;
-  
-  
 }
 
 .pdetail {
