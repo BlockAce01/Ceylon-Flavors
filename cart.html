@@ -71,12 +71,9 @@
       </tr>
       
       
-      
-      
-      
     </table>
     <div class="total-price">
-      <table>
+      <!--<table>
         <tr>
           <td>Subtotal</td>
           <td></td>
@@ -89,7 +86,7 @@
           <td>Total</td>
           <td></td>
         </tr>
-      </table>
+      </table>-->
       <a href="#" class="checkout btn">Proceed To Checkout</a>
     </div>
   </div>
@@ -107,65 +104,67 @@
       <div class="product-item">
         <div class="overlay">
           <a href="" class="product-thumb">
-            <img src="./images/Crab curry with bread.jpeg" alt="Crab curry with bread" />
+            <img src="images\new-menu\vegetable-samosa-main.webp" alt="" />
           </a>
-
         </div>
         <div class="product-info">
-          <span>Foods</span>
-          <a href="">Sri Lankan Crab Curry with Bread</a>
-          <h4>Rs.1500.00</h4>
+          <span>Appetizers</span>
+          <a href="">Vegetable Samosas</a>
+          <h4>Rs.200.00</h4>
         </div>
         <a href="cart.html"><ul class="icons">
           <li><i class="bx bx-cart"></i></li>
         </ul></a>
       </div>
+
       <div class="product-item">
         <div class="overlay">
           <a href="" class="product-thumb">
-            <img src="./images/Mutton curry with Pol roti.webp" alt="Mutton curry with Pol roti" />
+            <img src="images\new-menu\Sri-lankan-fish-ambulthiyal1-960x667.webp" alt="" />
           </a>
         </div>
-
         <div class="product-info">
-          <span>Foods</span>
-          <a href="">Mutton Curry with Pol Roti</a>
-          <h4>Rs.1500.00</h4>
+          <span>Seafood</span>
+          <a href="">Fish Ambul Thiyal</a>
+          <h4>Rs.450.00</h4>
+        </div>
+        <a href="cart.html"><ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+        </a>
+      </div>
+
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="images\new-menu\polroti.jpeg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Breads and Roti</span>
+          <a href="">Coconut Roti</a>
+          <h4>Rs.200.00</h4>
         </div>
         <a href="cart.html"><ul class="icons">
           <li><i class="bx bx-cart"></i></li>
         </ul></a>
       </div>
-      <div class="product-item">
-        <div class="overlay">
-          <a href="" class="product-thumb">
-            <img src="./images/Jack fruit Kottu.jpg" alt="Jack fruit Kottu" />
-          </a>
 
-        </div>
-        <div class="product-info">
-          <span>Foods</span>
-          <a href="">Jack Fruit Chicken Kottu</a>
-          <h4>Rs.1000.00</h4>
-        </div>
-        <a href="cart.html"><ul class="icons">
-          <li><i class="bx bx-cart"></i></li>
-        </ul></a>
-      </div>
       <div class="product-item">
         <div class="overlay">
           <a href="" class="product-thumb">
-            <img src="./images/Kurakkan String hoppers with potato curry.jpg" alt="Kurakkan String hoppers with potato curry" />
+            <img src="images\new-menu\R (2).jpeg" alt="" />
           </a>
         </div>
         <div class="product-info">
-          <span>Foods</span>
-          <a href="">Kurakkan String hoppers With Potato Curry</a>
-          <h4>Rs.800.00</h4>
+          <span>Main Courses</span>
+          <a href="">String Hoppers</a>
+          <h4>Rs.250.00</h4>
         </div>
         <a href="cart.html"><ul class="icons">
           <li><i class="bx bx-cart"></i></li>
-        </ul></a>
+        </ul>
+        </a>
       </div>
 
   </section>
@@ -239,8 +238,8 @@
     </div>
   </footer>
 
-  <!-- Custom Script -->
   <script src="./js/index.js"></script>
+  <!--add cart-->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const cartItem = JSON.parse(localStorage.getItem('cartItem'));
@@ -286,6 +285,8 @@
   
       const subtotal = price * quantity * portionSize;
       row.querySelector('td:last-child').textContent = `Rs.${subtotal.toFixed(2)}`;
+      console.log(subtotal);
+      
     }
   
     function updateTotalPrice() {
