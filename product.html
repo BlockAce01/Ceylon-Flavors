@@ -736,4 +736,742 @@
   </script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Food Menu</title>
+  <link rel="icon" type="image" href="images/images (2).jpeg">
+</head>
+
+<body>
+
+
+  <div class="navigation">
+
+    <div class="nav-center container d-flex">
+      <a href="index.html" class="logo">
+        <h1>Ceylon Flavors</h1>
+      </a>
+
+      <ul class="nav-list d-flex">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link">Menu</a>
+          <ul class="dropdown-content">
+            <li><a href="product.html#Appetizers" class="dropdown-link">Appetizers</a></li>
+            <li><a href="product.html#MainCourses" class="dropdown-link">Main Courses</a></li>
+            <li><a href="product.html#Seafood" class="dropdown-link">Seafoods</a></li>
+            <li><a href="product.html#Vegetarian" class="dropdown-link">Vegetarian</a></li>
+            <li><a href="product.html#Side" class="dropdown-link">Side Dishes</a></li>
+            <li><a href="product.html#Breads" class="dropdown-link">Breads & Roti</a></li>
+            <li><a href="product.html#Dessert" class="dropdown-link">Desserts</a></li>
+            <li><a href="product.html#Beverages" class="dropdown-link">Beverages</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#foot" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item lognav">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+      </ul>
+
+      <div class="icons d-flex">
+        <a href="cart.html" class="icon" title="Cart">
+          <i class="bx bx-cart"></i>
+        </a>
+      </div>
+
+      <div class="hamburger">
+        <i class="bx bx-menu-alt-left"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Appetizers -->
+  <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Appetizers">Appetizers</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Fish Cutlets" data-image="images\new-menu\Sri-lankan-crispyfish-cutlets-islandsmile.org-5934-e1520691362105.jpg" data-price="200">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\Sri-lankan-crispyfish-cutlets-islandsmile.org-5934-e1520691362105.jpg" alt="Fish Cutlets" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Appetizers</span>
+          <a href="cart.html">Fish Cutlets</a>
+          <h4>Rs.200.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart"><ul class="icons">
+          <li><i class="bx bx-cart"></i></li>
+        </ul></a>
+      </div>
+
+
+      <div class="product-item" data-name="Vegetable Samosas" data-image="images\new-menu\vegetable-samosa-main.webp" data-price="200">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\vegetable-samosa-main.webp" alt="Vegetable Samosas" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Appetizers</span>
+          <a href="cart.html">Vegetable Samosas</a>
+          <h4>Rs.200.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Lentil Vada" data-image="images\new-menu\R.jpeg" data-price="50">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\R.jpeg" alt="Lentil Vada" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Appetizers</span>
+          <a href="cart.html">Lentil Vada</a>
+          <h4>Rs.50.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+    </section>
+
+    
+
+    <!-- Main Course -->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="MainCourses">Main Courses</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Rice and Curry" data-image="images\new-menu\1619168025471.jpeg" data-price="750">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\1619168025471.jpeg" alt="Rice and Curry" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Main Courses</span>
+          <a href="cart.html">Rice and Curry</a>
+          <h4>Rs.750.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Kottu Roti" data-image="images\new-menu\R (1).jpeg" data-price="1000">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\R (1).jpeg" alt="Kottu Roti" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Main Courses</span>
+          <a href="cart.html">Kottu Roti</a>
+          <h4>Rs.1000.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Lamprais" data-image="images\new-menu\IMG_20170809_183207_716.jpg" data-price="1250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\IMG_20170809_183207_716.jpg" alt="Lamprais" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Main Courses</span>
+          <a href="cart.html">Lamprais</a>
+          <h4>Rs.1250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Hoppers" data-image="images\new-menu\OIP.jpeg" data-price="150">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\OIP.jpeg" alt="Hoppers" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Main Courses</span>
+          <a href="cart.html">Hoppers</a>
+          <h4>Rs.150.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="String Hoppers" data-image="images\new-menu\R (2).jpeg" data-price="250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\R (2).jpeg" alt="String Hoppers" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Main Courses</span>
+          <a href="cart.html">String Hoppers</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+       <!--Seafood Specialties-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Seafood">Seafood Specialties</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Sri Lankan Crab Curry" data-image="images\new-menu\R (3).jpeg" data-price="300">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\R (3).jpeg" alt="Sri Lankan Crab Curry" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Seafood</span>
+          <a href="cart.html">Sri Lankan Crab Curry</a>
+          <h4>Rs.300.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Prawn Curry" data-image="images\new-menu\R (4).jpeg" data-price="200">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\R (4).jpeg" alt="Prawn Curry" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Seafood</span>
+          <a href="cart.html">Prawn Curry</a>
+          <h4>Rs.200.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Fish Ambul Thiyal" data-image="images\new-menu\Sri-lankan-fish-ambulthiyal1-960x667.webp" data-price="450">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\Sri-lankan-fish-ambulthiyal1-960x667.webp" alt="Fish Ambul Thiyal" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Seafood</span>
+          <a href="cart.html">Fish Ambul Thiyal</a>
+          <h4>Rs.450.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+      <!--Vegetarian Dishes-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Vegetarian">Vegetarian Dishes</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Dhal Curry (Parippu)" data-image="images\new-menu\parippu-curry-4-FP.jpg" data-price="250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\parippu-curry-4-FP.jpg" alt="Dhal Curry (Parippu)" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Vegetarian</span>
+          <a href="cart.html">Dhal Curry (Parippu)</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Jackfruit Curry (Polos)" data-image="images\new-menu\Jackfruit-Curry-9771.jpg" data-price="400">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\Jackfruit-Curry-9771.jpg" alt="Jackfruit Curry (Polos)" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Vegetarian</span>
+          <a href="cart.html">Jackfruit Curry (Polos)</a>
+          <h4>Rs.400.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Beetroot Curry" data-image="images\new-menu\OIP (1).jpeg" data-price="250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\OIP (1).jpeg" alt="Beetroot Curry" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Vegetarian</span>
+          <a href="cart.html">Beetroot Curry</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+      <!--Side Dishes-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Side">Side Dishes</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Pol Sambol" data-image="images\new-menu\polsmbol.jpeg" data-price="100">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\polsmbol.jpeg" alt="Pol Sambol" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Side Dishes</span>
+          <a href="cart.html">Pol Sambol</a>
+          <h4>Rs.100.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Maldive Fish Sambol" data-image="images\new-menu\maldive-fish-sambol-front2-1000x1000.jpg" data-price="300">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\maldive-fish-sambol-front2-1000x1000.jpg" alt="Maldive Fish Sambol" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Side Dishes</span>
+          <a href="cart.html">Maldive Fish Sambol</a>
+          <h4>Rs.300.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Gotu Kola Sambol" data-image="images\new-menu\gotukol.jpeg" data-price="250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\gotukol.jpeg" alt="Gotu Kola Sambol" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Side Dishes</span>
+          <a href="cart.html">Gotu Kola Sambol</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+ 
+      <!--Breads and Roti-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Breads">Breads and Roti</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Paratha" data-image="images\new-menu\parata.jpeg" data-price="300">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="images\new-menu\parata.jpeg" alt="Paratha" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Breads and Roti</span>
+          <a href="productDetails.html">Paratha</a>
+          <h4>Rs.300.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Coconut Roti" data-image="images\new-menu\polroti.jpeg" data-price="200">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\polroti.jpeg" alt="Coconut Roti" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Breads and Roti</span>
+          <a href="cart.html">Coconut Roti</a>
+          <h4>Rs.200.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+  <!--Desserts-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Desserts">Desserts</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Watalappam" data-image="images\new-menu\watlpm.jpeg" data-price="300">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="images\new-menu\watlpm.jpeg" alt="Watalappam" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Desserts</span>
+          <a href="productDetails.html">Watalappam</a>
+          <h4>Rs.300.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Kiri Pani" data-image="images\new-menu\kiripani.jpeg" data-price="400">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\kiripani.jpeg" alt="Kiri Pani" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Desserts</span>
+          <a href="cart.html">Kiri Pani</a>
+          <h4>Rs.400.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Kokis" data-image="images\new-menu\kokis.jpeg" data-price="250">
+        <div class="overlay">
+          <a href="cart.html" class="product-thumb">
+            <img src="images\new-menu\kokis.jpeg" alt="Kokis" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Desserts</span>
+          <a href="cart.html">Kokis</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+      <!--Beverages-->
+   <section class="section all-products" id="products">
+    <div class="top container">
+      <h1 id="Beverages">Beverages</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Sale</option>
+          <option value="4">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+
+      <div class="product-item" data-name="Ceylon Tea" data-image="images/new-menu/ceylontea.jpeg" data-price="250">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="images/new-menu/ceylontea.jpeg" alt="Ceylon Tea" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Beverages</span>
+          <a href="productDetails.html">Ceylon Tea</a>
+          <h4>Rs.250.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="product-item" data-name="Faluda" data-image="images/new-menu/falud.webp" data-price="1000">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="images/new-menu/falud.webp" alt="Faluda" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>Beverages</span>
+          <a href="productDetails.html">Faluda</a>
+          <h4>Rs.1000.00</h4>
+        </div>
+        <a href="cart.html" class="add-to-cart">
+          <ul class="icons">
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </a>
+      </div>
+
+
+    </section>
+
+
+  <section class="pagination">
+    <div class="container">
+      <span>1</span> <a href="product2.html"><span>2</span></a><a href="product3.html"><span>3</span> </a><span>4</span>
+      <span><i class="bx bx-right-arrow-alt"></i></span>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="section contact">
+    <div class="row">
+      <div class="col">
+        <pre><h2>          OPEN HOURS</h2><br></pre>
+        <pre><p>
+          Monday    -    9.00am-11.00pm<br>
+          Tuesday   -    9.00am-11.00pm<br>
+          Wednesday -    9.00am-11.00pm<br>
+          Thursday  -    9.00am-11.00pm<br>
+          Friday    -    9.00am-12.00am<br>
+          Saturday  -    9.00am-12.00am<br>
+          Sunday    -    9.00am-12.00am
+        </p></pre>
+
+
+
+      </div>
+      <div class="col">
+        <h2>EXCELLENT SUPPORT</h2>
+        <p>To get News And Offers Contact Us!</p>
+        <a href="" class="btn btn-1">Contact us</a> <br><br>
+
+        <form action="">
+          <div>
+            <input type="email" placeholder="Email Address">
+            <a href="">Send</a>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="foot">
+    <div class="row">
+      <div class="col d-flex">
+        <h4>CONTACT US</h4>
+        <p>
+          Ceylon Flavors Restaurant.<br>
+          Prince street,<br>
+          Colombo 5,<br>
+          Sri Lanka.
+        </p>
+
+      </div>
+      <div class="col d-flex">
+        <p>
+          T : 011 1234567<br>
+          F : +94111234567<br>
+          E : ceylonflavours@gmail.com
+        </p>
+
+      </div>
+
+      <div class="col d-flex">
+        <span><i class='bx bxl-facebook-square'></i></span>
+        <span><i class='bx bxl-instagram-alt'></i></span>
+        <span><i class='bx bxl-twitter'></i></span>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Custom Script -->
+  <script src="./js/index.js"></script>
+  <script>
+    document.querySelectorAll('.product-item').forEach(item => {
+      item.addEventListener('click', function(event) {
+        event.preventDefault();
+        const name = this.dataset.name;
+        const image = this.dataset.image;
+        const price = this.dataset.price;
+  
+        // Store product details in local storage
+        localStorage.setItem('cartItem', JSON.stringify({ name, image, price, quantity: 1, portionSize: 1 }));
+  
+        // Redirect to cart page
+        window.location.href = 'cart.html';
+      });
+    });
+  </script>
+</body>
 </html>
