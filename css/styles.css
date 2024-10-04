@@ -1433,9 +1433,10 @@ th:last-child {
   font-size: 1.6rem;
   padding: 1rem 3rem;
   margin-right: 1.5rem;
-  background-color: var(--green);
+  background-color: #5F9EA0;
   color: white;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .login-form form p a {
