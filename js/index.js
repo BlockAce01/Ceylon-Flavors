@@ -22,20 +22,3 @@ if (popup) {
     }, 1000);
   });
 }
-
-
-//addtocart
-    document.querySelectorAll('.product-item').forEach(item => {
-      item.addEventListener('click', function(event) {
-        event.preventDefault();
-        const name = this.dataset.name;
-        const image = this.dataset.image;
-        const price = this.dataset.price;
-  
-        // Store product details in local storage
-        localStorage.setItem('cartItem', JSON.stringify({ name, image, price, quantity: 1, portionSize: 1 }));
-  
-        // Redirect to cart page
-        window.location.href = 'cart.html';
-      });
-    });
